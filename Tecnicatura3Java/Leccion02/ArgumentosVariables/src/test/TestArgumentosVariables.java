@@ -13,7 +13,6 @@ public class TestArgumentosVariables {
     private static void variosParámetros(String nombre,String apellido,int ...numeros){
         System.out.println("Nombre: "+nombre+", Apellido :"+apellido);
         imprimirNumeros(numeros);
-    
     }
     
     
