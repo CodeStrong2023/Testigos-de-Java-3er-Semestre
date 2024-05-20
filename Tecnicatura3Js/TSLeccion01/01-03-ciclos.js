@@ -30,3 +30,15 @@ for(let contando = 0 ; contando <= 10; contando ++){
 
 }
 console.log("Termina el ciclo al encontrar el primer número par ")
+
+
+// La palabra continue
+for(let contando = 0 ; contando <= 10; contando ++){
+    if(contando % 2 !== 0){
+        continue;// ir a la siguiente iteración
+
+    }
+    console.log(contando);
+
+}
+console.log("Termina el ciclo")
