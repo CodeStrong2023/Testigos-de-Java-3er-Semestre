@@ -31,3 +31,9 @@ miFuncionDos(5,7,3,6);
 var miFuncionTexto = miFuncionDos.toString();
 console.log(miFuncionTexto);
 
+//Funciones flecha
+const sumarFuncionFlecha = (a , b ) => a + b ;
+resultado = sumarFuncionFlecha(3 , 7);
+console.log(resultado);
+
+
