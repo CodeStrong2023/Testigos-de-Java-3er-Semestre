@@ -10,6 +10,9 @@ public class TestForEach {
         }
         Persona personas []={new Persona("Juan"),new Persona("Carla"),new Persona("Beatriz")};
         //ForEach
+        for (Persona persona :personas){
+            System.out.println("persona= "+ persona);
+        }
         
     }
 }
