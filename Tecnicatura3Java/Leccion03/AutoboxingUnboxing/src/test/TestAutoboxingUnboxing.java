@@ -11,7 +11,10 @@ public class TestAutoboxingUnboxing {
         int enteroPrim=10;
         System.out.println("enteroPrimitivo = "+enteroPrim);
         Integer entero=10;//Tipo de object con la clase Integer
-        System.out.println("entero = "+ entero.toString());
+        System.out.println("entero = "+ entero.doubleValue());//Autoboxing
+        
+        int entero2= entero;//Unboxing
+        System.out.println("entero2 = " + entero2);
        
     }
 }
