@@ -32,3 +32,6 @@ for(propiedad in persona){
     console.log(propiedad);
     console.log(persona[propiedad]);
 }
+persona.apellida = 'Betancud';//Cambiamos dinamicamente un valor del objeto
+delete persona.apellida;//Eliminamos el error
+console.log(persona);
