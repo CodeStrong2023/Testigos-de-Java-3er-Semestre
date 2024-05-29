@@ -18,3 +18,9 @@ console.log(persona.email);
 console.log(persona.edad);
 console.log(persona);
 console.log(persona.nombreCompleto());
+
+let persona2 =new Object();
+persona2.nombre='Juan';
+persona2.direccion='Salada 14';
+persona2.telefono='5492618282821';
+console.log(persona2.telefono);
