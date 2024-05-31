@@ -19,8 +19,7 @@ let persona = {
     },
     get nombreEdad(){//Este es el metodo get
         return 'El nombre es : '+this.nombre+', Edad '+this.edad;
-    }
-    
+    }  
 }
 
 console.log(persona.nombre);
@@ -75,3 +74,15 @@ console.log(persona.nombreEdad);
 console.log('Comenzamos con el método get y set para idiomas');
 persona.lang= 'en';
 console.log(persona.lang);
+
+function Persona3(nombre,apellido,email){//constructor
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.amail =email;
+}
+let padre= new Persona3('Leo','Lopez','lopez@mail.com');
+padre.nombre='Luis';
+console.log(padre);
+
+let madre =new Persona3('Laura','Contrera','contreral@gmail.com');
+console.log(madre);
