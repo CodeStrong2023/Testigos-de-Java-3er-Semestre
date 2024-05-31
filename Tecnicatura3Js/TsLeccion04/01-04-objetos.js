@@ -78,11 +78,15 @@ console.log(persona.lang);
 function Persona3(nombre,apellido,email){//constructor
     this.nombre = nombre;
     this.apellido = apellido;
-    this.amail =email;
+    this.amail = email;
+    this.nombreCompleto = function(){
+        return this.nombre+' '+this.apellido;
+    }
 }
 let padre= new Persona3('Leo','Lopez','lopez@mail.com');
-padre.nombre='Luis';
+padre.nombre='Luis';//Modificamos el nombre
 console.log(padre);
-
+console.log(padre.nombreCompleto());
 let madre =new Persona3('Laura','Contrera','contreral@gmail.com');
 console.log(madre);
+console.log(madre.nombreCompleto());
