@@ -90,3 +90,35 @@ console.log(padre.nombreCompleto());
 let madre =new Persona3('Laura','Contrera','contreral@gmail.com');
 console.log(madre);
 console.log(madre.nombreCompleto());
+
+//Diferentes formas de crear un objeto
+//caso objeto 1 
+let miObjeto= new Object(); //Esta es una opcion formal
+//caso objeto 2 
+let miObjeto2 ={};//Esta opcion es breve y recomendada
+
+//caso String 1 
+let miCaddena1=new String('Hola');//Sintaxis formal
+//caso String2 
+let miCadena2='Hola';//Esta es la sitaxis simplificada y recomendada
+
+//caso con numeros1
+let miNumero=new Number(1);//Es la formal no recomendable
+//caso con numeros2
+let miNumero2=1;//Sintaxis recomendada
+
+//caso boolean1=
+let miBoolean1=new Boolean(false);//Formal
+//caso boolean2
+let miBoolean2=false;//sintaxis recomendada
+
+//Caso Arreglos 1
+let miArreglo1= new Array();//Formal
+//caso Arreglos 2 
+let miArreglo2= [];//Sintaxis recomendada
+
+//caso function 1 
+let miFuncion1=new function(){};//Todo despues de nww es considerado objeto
+//caso funcion 2
+let miFuncion2 = function(){};//Notacion simplicada y recomendada
+
