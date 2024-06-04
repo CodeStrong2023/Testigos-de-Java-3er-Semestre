@@ -85,10 +85,12 @@ function Persona3(nombre,apellido,email){//constructor
 }
 let padre= new Persona3('Leo','Lopez','lopez@mail.com');
 padre.nombre='Luis';//Modificamos el nombre
+padre.telefono ='542618585821';
 console.log(padre);
 console.log(padre.nombreCompleto());
 let madre =new Persona3('Laura','Contrera','contreral@gmail.com');
 console.log(madre);
+console.log(madre.telefono);//la priedad no esta definida
 console.log(madre.nombreCompleto());
 
 //Diferentes formas de crear un objeto
@@ -121,4 +123,11 @@ let miArreglo2= [];//Sintaxis recomendada
 let miFuncion1=new function(){};//Todo despues de nww es considerado objeto
 //caso funcion 2
 let miFuncion2 = function(){};//Notacion simplicada y recomendada
+
+//Uso de prototype
+Persona3.prototype.telefono='2618383832';
+console.log(padre);
+console.log(madre.telefono);
+madre.telefono='5492418389823';
+console.log(madre.telefono);
 
