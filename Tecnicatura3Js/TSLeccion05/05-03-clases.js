@@ -36,6 +36,10 @@ class Empleado extends Persona{//Clase hija
     set departamento(departamento){
         this._departamento=departamento;
     }
+    //Sobreescritura
+    nombreCompleto(){
+        return super.nombreCompleto()+', '+this._departamento;
+    }
 
 }
 
