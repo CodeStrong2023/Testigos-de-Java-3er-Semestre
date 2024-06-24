@@ -1,6 +1,6 @@
 from NumerosIgualesException import NumerosIgualesException
 
-resultado = None   
+resultado = None   #nada
 
 try: 
     a = int(input('Escriba un numero: '))
