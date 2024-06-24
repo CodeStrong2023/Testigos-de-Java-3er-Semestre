@@ -26,7 +26,21 @@ class Persona{
     set apellido(apellido){
         this._apellido=apellido;
     }
+    get edad (){
+        return this._edad;
+    }
 
+    set edad(edad){
+        this._edad =edad;
+    }
+
+    toString(){
+        return `
+        ${this._idPersona} 
+        ${this._nombre}
+        ${this._apellido}
+        ${this._edad}`;
+    }
 
 
 }

@@ -132,3 +132,5 @@ console.log (persona4.toString());
 
 let persona5= new Persona('Liliana','Paz');
 console.log(persona5.toString());
+
+
