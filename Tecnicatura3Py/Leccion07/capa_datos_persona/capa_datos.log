@@ -1,0 +1,83 @@
+07:09:29 PM:DEBUG [logger_base.py:15] Mensaje a nivel debug
+07:09:29 PM:INFO [logger_base.py:16] Mensaje a nivel info
+07:09:29 PM:WARNING [logger_base.py:17] Mensaje a nivel warning
+07:09:29 PM:ERROR [logger_base.py:18] Mensaje a nivel error
+07:09:29 PM:CRITICAL [logger_base.py:19] Mensaje a nivel critical
+07:14:06 PM:DEBUG [persona.py:54] 
+            Id persona: 1, 
+            Nombre: Juan, 
+            Apellido: Perez, 
+            Email: jperez@gmail.com
+            
+07:14:06 PM:DEBUG [persona.py:57] 
+            Id persona: None, 
+            Nombre: Jose, 
+            Apellido: Lepez, 
+            Email: jlepez@gmail.com
+            
+07:14:06 PM:DEBUG [persona.py:60] 
+            Id persona: 1, 
+            Nombre: None, 
+            Apellido: None, 
+            Email: None
+            
+07:15:36 PM:DEBUG [persona.py:54] 
+            Id persona: 1, 
+            Nombre: Juan, 
+            Apellido: Perez, 
+            Email: jperez@gmail.com
+            
+07:15:36 PM:DEBUG [persona.py:57] 
+            Id persona: None, 
+            Nombre: Jose, 
+            Apellido: Lepez, 
+            Email: jlepez@gmail.com
+            
+07:15:36 PM:DEBUG [persona.py:60] 
+            Id persona: 1, 
+            Nombre: None, 
+            Apellido: None, 
+            Email: None
+            
+07:15:58 PM:DEBUG [persona.py:54] 
+            Id persona: 1, 
+            Nombre: Juan, 
+            Apellido: Perez, 
+            Email: jperez@gmail.com
+            
+07:15:58 PM:DEBUG [persona.py:57] 
+            Id persona: None, 
+            Nombre: Jose, 
+            Apellido: Lepez, 
+            Email: jlepez@gmail.com
+            
+07:15:58 PM:DEBUG [persona.py:60] 
+            Id persona: 1, 
+            Nombre: None, 
+            Apellido: None, 
+            Email: None
+            
+07:16:40 PM:DEBUG [persona.py:54] 
+            Id persona: 1, 
+            Nombre: Juan, 
+            Apellido: Perez, 
+            Email: jperez@gmail.com
+            
+07:16:40 PM:DEBUG [persona.py:57] 
+            Id persona: 2, 
+            Nombre: Jose, 
+            Apellido: Lepez, 
+            Email: jlepez@gmail.com
+            
+07:16:40 PM:DEBUG [persona.py:60] 
+            Id persona: 1, 
+            Nombre: None, 
+            Apellido: None, 
+            Email: None
+            
+07:18:54 PM:ERROR [conexion.py:28] Ocurrió un error: 'utf-8' codec can't decode byte 0xf3 in position 79: invalid continuation byte
+07:19:33 PM:ERROR [conexion.py:28] Ocurrió un error: 'utf-8' codec can't decode byte 0xf3 in position 79: invalid continuation byte
+07:24:33 PM:ERROR [conexion.py:28] Ocurrió un error: name 'bd' is not defined
+07:24:48 PM:ERROR [conexion.py:28] Ocurrió un error: 'utf-8' codec can't decode byte 0xf3 in position 79: invalid continuation byte
+07:26:02 PM:DEBUG [conexion.py:25] Conexión Exitosa: <connection object at 0x000001C9EF77CBF0; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+07:26:02 PM:DEBUG [conexion.py:38] Se abrio correctamente el cursor: <cursor object at 0x000001C9EF423220; closed: 0>
