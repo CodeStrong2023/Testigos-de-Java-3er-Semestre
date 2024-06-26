@@ -8,7 +8,9 @@ public class TestForEach {
         for (int edad:edades) { // Sintaxis del ForEach
             System.out.println("edad = " + edad);   
         }
+        
         Persona personas []={new Persona("Juan"),new Persona("Carla"),new Persona("Beatriz")};
+        
         //ForEach
         for (Persona persona :personas){
             System.out.println("persona= "+ persona);
