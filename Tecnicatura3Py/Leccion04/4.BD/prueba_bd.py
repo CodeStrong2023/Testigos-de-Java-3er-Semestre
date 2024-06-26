@@ -1,4 +1,4 @@
-import psycopg2
+import psycopg2 # type: ignore
 
 conexion = psycopg2.connect(user='postgres', password='admin', host='127.0.0.1', port='5432', database='test_bd')
 try:
