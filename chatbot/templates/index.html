@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Testigos de Java AI</title>
+    <!--<link rel="stylesheet" href="css/main.css" type="text/css">-->
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            justify-content: center;
+        }
+        .form-container {
+            width: 70%;
+            height: 180px;
+            margin: 0 auto;
+            text-align: center;
+            justify-content: center;
+            display: grid;
+            padding-top: 7%;
+        }
+        .form-control{
+            justify-content: center;
+            text-align: center;
+            width: 400px;
+            height: 35px;
+            display: block;
+        }
+        .generate{
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+            width: 100%;
+            height: 40px;
+            border-radius: 10px;
+            text-align: center;
+            justify-content: space-between;
+            background-color: #44381d;
+            display: block;
+        }
+        .user-mesagge{
+            text-align: center;
+            padding: 50px;
+        }
+        .output-container{
+            color: rgb(158, 111, 49);
+            display: grid;
+            align-content: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        </style>
+</head>
+<body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Logo</title>
+    <style>
+        body {
+            background-color: #f5ebe0; /* Color de fondo similar al de la imagen */
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Georgia', serif; /* Fuente similar a la utilizada en la imagen */
+        }
+        .container {
+            text-align: center;
+            margin-top: 20px; /* Espacio desde la parte superior de la página */
+        }
+        .title {
+            font-size: 80px;
+            font-weight: bold;
+        }
+        .subtitle {
+            font-size: 20px;
+            letter-spacing: 5px;
+            margin-top: -10px; /* Ajuste para acercar el subtítulo al título */
+        }
+        .form-label{
+            font-size: 30px;
+            padding-top: 150px;
+        }
+        .mensaje-container{
+            padding-bottom: 5px;
+        }
+        .separar{
+            padding-top: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">CHATBOT</div>
+        <div class="subtitle">LOS TESTIGOS DE JAVA</div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="container2">
+                <h1 class="text-center"></h1>
+                <div class="form-container">
+                    <form method="POST">
+                        <div class="mensaje-container">
+                            <label for="prompt" class="form-label">Ingrese el mensaje:</label>
+                            <div class="separar">
+                            <input type="text" id="prompt" name="prompt" class="form-control" required>
+                            </div>
+                        </div>
+                        <button type="submit" class="generate">Enviar</button>
+                    </form>
+                </div>
+                {% if prompt %}
+                <div class="output-container">
+                    <h2 class="mt-4">Pregunta:</h2>
+                    <p>{{ prompt }}</p>
+                    <h2>Respuesta:</h2>
+                    <p>{{ generated_text }}</p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
